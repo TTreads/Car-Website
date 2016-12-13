@@ -200,6 +200,10 @@ input.btn-login{
     position: relative;
     top: 20px;
 }
+.logo-container img {
+    max-width: 270px;
+    margin-bottom: -30px;
+}
 .logo-container h1 {
     color: white;
     position: relative;
