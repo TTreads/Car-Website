@@ -25,7 +25,7 @@ header {
 }
 nav {
     max-width: 100%;
-    height: 68px;
+    min-height: 68px;
     margin-top: 50px;
     background-color: #f3f3f3;
 }
@@ -43,11 +43,10 @@ nav.top-menu ul {
 	padding: 0.5rem;
 }
 div.container {
-    max-width: 1000px;
+    max-width: 1040px;
     min-height: 500px;
     background-color: #fff;
     margin: auto;
-    box-shadow: 0px 5px 14px rgba(160, 160, 160, 0.39);
     margin-top: -25px;
     padding: 10px 35px;
     padding-top: 50px;
@@ -65,13 +64,15 @@ div.container {
     padding-bottom: 22px;
 }
 aside {
-    width: 210px;
+    width: 280px;
     height: 600px;
     background: transparent;
     border: none;
     margin-bottom: 30px;
     border-radius: 6px;
-    float: right;
+    position: absolute;
+    top: 50px;
+    right: 0;
 }
 input#search-inventory {
     width: 94%;
@@ -100,9 +101,11 @@ input#search-inventory:focus {
 .hero h3 {
     position: absolute;
     bottom: 30px;
-    left: 30px;
+    padding: 5px;
+    left: 0px;
     color: white;
     font-size: 30px;
+    background: #d71921;
 }
 .hero img {
     max-width: 100%;
@@ -181,11 +184,11 @@ input.view-details:hover {
     background-color: #1fa5f3;
     border-bottom: 4px solid #0a83cc;
 }
-input.btn-login{
+input.btn-login {
     padding: 10px;
-    background: #312f2f;
-    border: 1px solid #5d5b5b;
-    color: white;
+    background: #f3f3f3;
+    border: 1px solid #f3f3f3;
+    color: #413333;
     text-transform: uppercase;
     width: 190px;
     cursor: pointer;
